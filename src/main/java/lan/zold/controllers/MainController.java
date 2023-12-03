@@ -18,6 +18,7 @@ import lan.zold.models.Product;
 import lan.zold.views.MainFrame;
 
 public class MainController {
+    // Az a objektum a MainFrame egy példánya
     MainFrame a;
     public MainController() {
         this.a = new MainFrame();

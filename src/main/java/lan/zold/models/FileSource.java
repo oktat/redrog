@@ -19,9 +19,14 @@ public class FileSource {
     String fileName;
     Scanner scanner;
 
+    /*
+     * Itt el kellett gondolkodnom, hogy most akkor a scanner
+     * osztály adattag legyen, vagy helyi változó. 
+     * Végül az adattag mellett döntöttem.
+     */
     public FileSource() {
         fileName = "data.txt";
-    }
+    }// A FileSource konstruktor vége
     
     public ArrayList<Product> readFile() {
         ArrayList<Product> productList = new ArrayList<>();
