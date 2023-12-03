@@ -1,3 +1,13 @@
+/*
+* File: MainFrame.java
+* Author: Sallai András
+* Copyright: 2023, Sallai András
+* Group: Szoft V
+* Date: 2023-12-03
+* Github: https://github.com/oktatas/
+* Licenc: GNU GPL
+*/
+
 package lan.zold.views;
 
 import java.util.ArrayList;
@@ -17,9 +27,6 @@ public class MainFrame extends JFrame {
     public void setModel(DefaultTableModel model) {
         this.model = model;
     }
-    JScrollPane pane;
-    JTable table;
-    ArrayList<Product> productList;
     public MainFrame() {
         String[] columNames = {
             "Azonosító",
@@ -41,4 +48,7 @@ public class MainFrame extends JFrame {
         this.setSize(400, 300);
         this.setVisible(true);
     }
+    JScrollPane pane;
+    JTable table;
+    ArrayList<Product> productList;
 }

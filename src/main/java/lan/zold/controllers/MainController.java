@@ -1,3 +1,13 @@
+/*
+* File: MainController.java
+* Author: Sallai András
+* Copyright: 2023, Sallai András
+* Group: Szoft V
+* Date: 2023-12-03
+* Github: https://github.com/oktatas/
+* Licenc: GNU GPL
+*/
+
 package lan.zold.controllers;
 
 import java.util.ArrayList;
@@ -8,9 +18,9 @@ import lan.zold.models.Product;
 import lan.zold.views.MainFrame;
 
 public class MainController {
-    MainFrame mainFrame;
+    MainFrame a;
     public MainController() {
-        this.mainFrame = new MainFrame();
+        this.a = new MainFrame();
         ArrayList<Product> productList = new FileSource().readFile();
         for(Product prod : productList) {
             System.out.println(prod.getName());
@@ -23,7 +33,7 @@ public class MainController {
             row.add(prod.getArticleNumber());
             row.add(prod.getUnitPrice().toString());
             row.add(prod.getPiece().toString());
-            this.mainFrame.getModel().addRow(row);
+            this.a.getModel().addRow(row);
         }
 
 
