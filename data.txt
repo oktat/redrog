@@ -1,0 +1,29 @@
+id:name:article number:unit price:piece
+1:Zsuzsi Sampon:848288:2400:120
+2:Pista Fogkrém:712345:1600:72
+3:Margaréta Kézkrém:935712:3200:48
+4:Géza WC Papír:654321:800:48
+5:Bence Tusfürdő:567890:1600:60
+6:Réka Mosószer:987654:4000:36
+7:Szabolcs Hajkefe:456789:2000:30
+8:Beatrix Mosogatószer:123456:2400:42
+9:Ákos Törlőkendő:876543:2400:54
+10:Jázmin Illatszóró:234567:1600:42
+11:Klára Női Borotva:789012:3200:24
+12:Barnabás Fésű:345678:2000:30
+13:Nikolett Szappan:901234:2400:48
+14:Gergő Konyharuha:567890:2400:36
+15:Viktória Alufólia:345678:4000:40
+16:Balázs WC Tisztítószer:109876:2800:30
+17:Szilvia Porszívózsák:543210:3200:20
+18:László Szivacs:987654:2000:48
+19:Noémi Ételzacskó:876543:3200:30
+20:Miklós Hajszárító:654321:4000:32
+21:Renáta Fényvédő Krém:234567:2400:36
+22:Sándor Seprű:789012:2000:30
+23:Dóra Ételadagoló:345678:4000:48
+24:Vince Hajgumi:567890:1600:54
+25:Rózsa Mosogatószivacs:109876:1600:60
+26:Bianka Piperecucc:901234:2400:42
+27:Norbert Kuktafonott:876543:3200:30
+28:Tímea Fültisztító Pálca:543210:3200:24
